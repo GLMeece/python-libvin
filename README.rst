@@ -3,7 +3,7 @@ python-libvin
 
 `libvin` is a python library which can decode Vehicle Identification Numbers.
 
-Currently it can exctract these informations:
+Currently it can extract the following information:
 
  * Country
  * If the vehicle was built before 2010
