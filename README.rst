@@ -6,7 +6,7 @@ python-libvin
 Currently it can exctract these informations:
 
  * Country
- * If the vehicle was build before 2010
+ * If the vehicle was built before 2010
  * If there is less than 500 of this vehicle model built per year
  * Region
  * Vehicle Descriptor Section
@@ -15,10 +15,9 @@ Currently it can exctract these informations:
  * World Manufacturer Identifier
  * Year of the vehicle model
 
-This is a work in progress and my only source of information about the many VIN standards
-is a half baked Wikipedia article. So don't expect it to be perfect. 
+This is a work in progress and my only source of information about the many VIN standards is a half baked Wikipedia article. So don't expect it to be perfect. 
 
-Feel free to contribute !
+Feel free to contribute!
 
 Low level API example
 ---------------------
@@ -35,7 +34,7 @@ Low level API example
     >>> v.year
     2006
     >>> v.manufacturer
-    Honada Canda
+    Honda Canada
     >>> v.is_pre_2010
     True
     >>> v.wmi
@@ -53,27 +52,27 @@ Low level API example
 Methods
 -------
 
-+------------------------------+----------------------------------------------------------------+
-| Method                       | Description                                                    |
-+==============================+================================================================+
-| country                      | Manufacturer's country                                         |
-+------------------------------+----------------------------------------------------------------+
-| is_pre_2010                  | If the vehicle was build before 2010                           |
-+------------------------------+----------------------------------------------------------------+
-| less_than_500_built_per_year | If there is less than 500 of this vehicle model built per year |
-+------------------------------+----------------------------------------------------------------+
-| region                       | Region                                                         |
-+------------------------------+----------------------------------------------------------------+
-| vds                          | Vehicle Descriptor Section                                     |
-+------------------------------+----------------------------------------------------------------+
-| vis                          | Vehicle Identifier Sequence                                    |
-+------------------------------+----------------------------------------------------------------+
-| vsn                          | Vehicle Sequential Number                                      |
-+------------------------------+----------------------------------------------------------------+
-| wmi                          | World Manufacturer Identifier                                  |
-+------------------------------+----------------------------------------------------------------+
-| year                         | Year of the vehicle model                                      |
-+------------------------------+----------------------------------------------------------------+
++------------------------------+------------------------------------------------------------------+
+| Method                       | Description                                                      |
++==============================+==================================================================+
+| country                      | Manufacturer's country                                           |
++------------------------------+------------------------------------------------------------------+
+| is_pre_2010                  | If the vehicle was built before 2010                             |
++------------------------------+------------------------------------------------------------------+
+| less_than_500_built_per_year | If there were less than 500 of this vehicle model built per year |
++------------------------------+------------------------------------------------------------------+
+| region                       | Region                                                           |
++------------------------------+------------------------------------------------------------------+
+| vds                          | Vehicle Descriptor Section                                       |
++------------------------------+------------------------------------------------------------------+
+| vis                          | Vehicle Identifier Sequence                                      |
++------------------------------+------------------------------------------------------------------+
+| vsn                          | Vehicle Sequential Number                                        |
++------------------------------+------------------------------------------------------------------+
+| wmi                          | World Manufacturer Identifier                                    |
++------------------------------+------------------------------------------------------------------+
+| year                         | Year of the vehicle model                                        |
++------------------------------+------------------------------------------------------------------+
 
 
 Standards
@@ -100,7 +99,7 @@ ISO 3779
     |       |
     |       Vehicle Descriptor Section
     |
-    World Manufacturer Idendified
+    World Manufacturer Identified
 
 
 European Union & North America (>500 vehicles/year)
@@ -121,7 +120,7 @@ European Union & North America (>500 vehicles/year)
     |       |
     |       Vehicle Attributes
     |
-    World Manufacturer Idendified
+    World Manufacturer Identified
 
 
 European Union & North America (<500 vehicles/year)
@@ -144,7 +143,7 @@ European Union & North America (<500 vehicles/year)
     |       |
     |       Vehicle Attributes
     |
-    World Manufacturer Idendified
+    World Manufacturer Identified
 
 
 References
